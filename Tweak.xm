@@ -18,9 +18,15 @@ static NSString *LOG_HTML_URL = @"cydia.saurik.com/ui/ios~iphone/1.1/progress";
 - (void)loadRequest:(NSURLRequest *)request {
     %orig;
     if ([request.URL.absoluteString rangeOfString:LOG_HTML_URL].length != 0) {
-        self.alpha = 0.65;
-        self.superview.backgroundColor = [UIColor clearColor];
         [[UIApplication sharedApplication] _setBackgroundStyle:3];
+        [UIView animateWithDuration:0.3
+                              delay:0.6
+                            options:0
+                         animations:^{
+                             self.alpha = 0.65;
+                             self.superview.backgroundColor = [UIColor clearColor];
+                             }
+                         completion:nil];
     }
 }
 
