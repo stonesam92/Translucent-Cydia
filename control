@@ -1,7 +1,7 @@
 Package: com.samstone.translucentcydia
 Name: TranslucentCydia
-Depends: mobilesubstrate
-Version: 2.0.1
+Depends: mobilesubstrate, preferenceloader
+Version: 2.0.2
 Architecture: iphoneos-arm
 Description: Make Cydia translucent!
 Maintainer: Sam Stone
