@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Enabling an option will make it transparent.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.samstone.translucentcydiasettings</string>
+			<key>key</key>
+			<string>log</string>
+			<key>label</key>
+			<string>Log (Installing, Refreshing)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.samstone.translucentcydiasettings</string>
+			<key>key</key>
+			<string>home</string>
+			<key>label</key>
+			<string>Home Page</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.samstone.translucentcydiasettings</string>
+			<key>key</key>
+			<string>all</string>
+			<key>label</key>
+			<string>Everywhere (Usually not pretty)</string>
+		</dict>
+		<dict>	
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Try different Eclipse/Noctis settings. | Currently changes UIWebBrowserViews.</string>
+		</dict>
+		</array>
+	<key>title</key>
+	<string>Translucent Cydia</string>
+</dict>
+</plist>
