@@ -12,3 +12,5 @@ TranslucentCydia_FRAMEWORKS = UIKit
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 
+SUBPROJECTS += translucentcydiaprefs
+include $(THEOS_MAKE_PATH)/aggregate.mk
